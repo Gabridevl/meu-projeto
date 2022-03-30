@@ -109,6 +109,8 @@ const listarFilmesEmCartaz = () => catalogo.filter(catalogo => !catalogo.emCarta
 
 console.table(listarFilmesEmCartaz())
 
+
+console.log(cinema)
 /* function buscarFilme(codigo) {
     for (let i = 0; i < catalogo.length; i++) {
         if(catalogo[i].codigo == codigo) {
